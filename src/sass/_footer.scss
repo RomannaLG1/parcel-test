@@ -1,0 +1,30 @@
+.footer {
+    width: 1200px;
+    height: 600px;
+    background-color: tomato;
+}
+.footer-titte {
+    font-weight: 700;
+    font-size: 40px;
+    letter-spacing: 0.03px;
+    color: black;
+}
+.footer-text {
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 0.03px;
+    color: black;
+}
+.footer-list {
+    display: flex;
+}
+.footer-item {
+    margin-left: 20px;
+}
+.footer-link {
+    list-style-type: none;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 0.03px;
+    color: blue;
+}
