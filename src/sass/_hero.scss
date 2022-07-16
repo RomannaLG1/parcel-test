@@ -11,3 +11,21 @@
 
     letter-spacing: 0.03px;
 }
+.hero-list {
+    display: flex;
+    width: 600px;
+    background: violet;
+}
+
+.hero-item {
+    margin: 20px;
+    width: 100px;
+    background: tan;
+}
+
+.hero-link {
+    display: block;
+    color: aliceblue;
+    font-weight: 400;
+    font-size: 50px;
+}
