@@ -17,6 +17,17 @@ img {
 	height: auto;
 }
 
+.list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.link {
+	text-decoration: none;
+	color: inherit;
+}
+
 .page {
 	/* padding-top: 80px; */
 	font-family: "DM Sans", sans-serif;
