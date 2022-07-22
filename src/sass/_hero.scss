@@ -1,22 +1,13 @@
 
-<picture>
-<source
-    media="(min-width:1200px)"
-    srcset="./image/team_adptv/d_team-4@1x.jpg 1x, ./image/team_adptv/d_team-4@2x.jpg 2x"
-    type="image/jpeg"
-/>
-<source
-    media="(min-width:768px)"
-    srcset="./image/team_adptv/t_team-4@1x.jpg 1x, ./image/team_adptv/t_team-4@2x.jpg 2x"
-    type="image/jpeg"
-/>
-<source
-    media="(max-width:767px)"
-    srcset="./image/team_adptv/m_team-4@1x.jpg 1x, ./image/team_adptv/m_team-4@2x.jpg 2x"
-    type="image/jpeg"
-/>
-<img src="./image/team/team-4.jpg" alt="Фото Михаила Ермакова" width="270" class="team-img" />
-</picture>
+.gallery {
+    @media screen and (max-width: 767px) {
+	padding-top: 60px;
+    background-image: linear-gradient(180deg, var(--secondary-bg-color) 44%, var(--primare-bg-color)  0);
+	}
+    
+}
+.gallery__img {
+}
 
 
 
